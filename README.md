@@ -23,6 +23,7 @@ This project is intended for **educational and research purposes only**. Unautho
 - **File Hiding** - Copies itself to system directories with hidden attributes
 - **Antivirus Exclusion** - Automatically adds Windows Defender exclusions
 - **Multiple Persistence Methods**:
+  
   - Scheduled Tasks (SYSTEM level)
   - Registry Run Keys (fallback)
   - Hidden system process naming
