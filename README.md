@@ -56,7 +56,7 @@ BOT_TOKEN = "YOUR_ACTUAL_BOT_TOKEN_HERE"
 
 ### Step 2: Get Your Chat ID
 1. Send a message to your bot
-2. Visit this URL in your browser but replace YOUR_BOT_TOKEN with your actual token:
+2. Visit this URL in your browser but replace **YOUR_ACTUAL_CHAT_ID** with your actual token:
    ```https://api.telegram.org/botYOUR_BOT_TOKEN/getUpdates```
 4. Look for the `"chat"` object and find the `"id"` field
 5. Copy the numeric Chat ID
