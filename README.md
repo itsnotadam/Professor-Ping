@@ -3,10 +3,13 @@
 A high-performance DDoS botnet controller with Telegram-based C&C (Command and Control) capabilities, designed for educational and research purposes.
 
 
-## ⚠️ Intended Use 
+## 🔍 Overview
 
-This botnet client is designed for manual USB deployment - meaning you physically insert a USB drive into a target computer and execute the deployment script to manually add bots to your botnet network. This requires either physical access to the machine or and requires logging in with administrator privileges to bypass security protections.
+This botnet client is designed for manual USB deployment - meaning you physically insert a USB drive into a target computer and execute the deployment script to manually add bots to your botnet network. This requires either physical access to the machine and requires logging in with administrator privileges to bypass security protections. 
 
+- **Computer-based Infection:** While computer-based infection is more challenging (requiring either social engineering or sophisticated AV bypass), we prioritize computers over traditional telnet-scanned IoT devices because each computer provides significantly more processing power, bandwidth, and reliability. This trade-off means you need fewer machines for much stronger attacks, making the extra effort worth it for better performance.
+  
+- **Hypothetical Deployment Scenarios:** In research environments, this approach is more efficient than telnet scanning - where one might study physical security vulnerabilities in places like electronics stores in malls with display computers, public libraries with shared workstations, or educational institutions with open computer labs. Where one good computer can do more than many IoT devices, making targeted manual deployment better than mass scanning.
 
 ## 🚀 Features
 
