@@ -93,6 +93,7 @@ pip install "module name"
 pip install telegram
 pip install requests
 pip install asyncio
+...
 ```
 
 ### Step 4: Compile with Nuitka
