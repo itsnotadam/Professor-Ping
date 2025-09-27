@@ -32,8 +32,8 @@ This botnet client is designed for manual USB deployment - meaning you physicall
 
 ## 🚀 Quick Deployment
 
-1. **Prepare USB** - Copy deploy.bat and _Data folder to USB drive
-2. **Insert & Execute** - Plug USB into target PC, run deploy.bat as Admin
+1. **Prepare USB** - Copy ``deploy.bat`` and ``_Data`` folder to USB drive
+2. **Insert & Execute** - Plug USB into target PC, run ``deploy.bat`` as Admin
 3. **Bypass Security** - Accept UAC prompt, script automatically disables protections
 4. **Stealth Install** - Bot installs to system directories with persistence
 5. **Go Live** - Bot connects to Telegram C&C - ready for commands
