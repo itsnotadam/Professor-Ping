@@ -2,9 +2,10 @@
 
 A high-performance DDoS botnet controller with Telegram-based C&C (Command and Control) capabilities, designed for educational and research purposes.
 
+
 ## ⚠️ Intended Use 
 
-This botnet client is designed for manual USB deployment - meaning you physically insert a USB drive into a target computer and execute the deployment script without the user knowing to manually add bots to your botnet network. This requires either physical access to the machine or social engineering the user, and requires logging in with administrator privileges to bypass security protections.
+This botnet client is designed for manual USB deployment - meaning you physically insert a USB drive into a target computer and execute the deployment script to manually add bots to your botnet network. This requires either physical access to the machine or and requires logging in with administrator privileges to bypass security protections.
 
 
 ## 🚀 Features
@@ -177,18 +178,16 @@ YourUSB/
 - **Packet Size**: 512-1400 bytes (UDP)
 - **Batch Size**: 500 packets (UDP), 10 requests (TCP)
 - **Connection Reuse**: Socket pooling for efficiency
+  
 
-## 📝 License
-
-This project is for educational purposes only. Use responsibly and only in environments where you have explicit permission to conduct security testing.
+## ⚖️ Legal Disclamer
+This project is for **Educational and Research Purposes**. It is stricly prohibited for illegal penetration testing, unauthorized system access, malicious attacks, or any activities without explicit permission; developers assume no liability for misuse.
 
 ## 🔬 Educational Value
 
 This project demonstrates:
-- Botnet architecture and C&C communication
-- DDoS attack techniques and mitigation
-- System persistence methods
-- Anti-detection strategies
-- Network security principles
-
-**Remember: Always obtain proper authorization before testing any security tools.**
+- Botnet Architecture - Centralized C&C communication via Telegram
+- DDoS Techniques - Layer 4 flooding methods (UDP/TCP optimization)
+- System Persistence - Scheduled tasks, registry run keys, stealth installation
+- Anti-Detection Strategies - Security software bypass (Smart App Control, Device Guard, Defender)
+- Physical Security Risks - USB-based deployment and privilege escalation
