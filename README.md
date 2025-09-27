@@ -1,6 +1,6 @@
 # 🧑‍🏫 Professor Ping - DDoS Botnet / Bot Controller
 
-A high-performance DDoS botnet controller with Telegram-based C&C (Command and Control) capabilities, designed for educational and research purposes.
+A simple high-performance DDoS botnet controller with Telegram-based C&C (Command and Control) capabilities, designed for educational and research purposes.
 
 
 ## 🔍 Overview
